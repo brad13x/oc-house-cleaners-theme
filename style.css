@@ -724,6 +724,15 @@ html { scroll-behavior: smooth; }
 }
 .contact-form .btn-submit:hover { background: #ea580c; }
 
+/* When contact-form sits inside the white hero-form card, restore light-bg input styles */
+.hero-form .contact-form input {
+  color: #333;
+  background: #fff;
+  border-color: #e3e8f0;
+}
+.hero-form .contact-form input::placeholder { color: #aaa; }
+.hero-form .contact-form input:focus { border-color: #1a237e; box-shadow: 0 0 0 3px rgba(26,35,126,0.12); }
+
 /* =====================
    BLOG SECTION (homepage)
    ===================== */
